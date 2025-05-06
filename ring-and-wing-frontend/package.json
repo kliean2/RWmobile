@@ -6,7 +6,7 @@
   "proxy": "http://localhost:5000",
   "scripts": {
     "dev": "nodemon --exec vite",
-    "build": "vite build --legacy-peer-deps",
+    "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },

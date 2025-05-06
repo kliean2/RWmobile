@@ -2,11 +2,11 @@ services:
   - type: web
     name: ring-wing-frontend
     runtime: static
-    buildCommand: npm install && npm run build
+    buildCommand: npm install --legacy-peer-deps && npm run build
     staticPublishPath: ./dist
     envVars:
       - key: VITE_API_URL
-        value: https://ring-wing-backend.onrender.com
+        value: https://rwmobile.onrender.com
     routes:
       - type: rewrite
         source: /*
