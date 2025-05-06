@@ -1,0 +1,26 @@
+services:
+  # Backend API service configuration
+  - type: web
+    name: ring-wing-backend
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
+    plan: free
+    # Keep the free instance awake
+    autoDeploy: false
+    # Automatically scale based on load
+    scaling:
+      minInstances: 1
+      maxInstances: 1
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: JWT_SECRET
+        sync: false
+      - key: MONGO_URI
+        sync: false
+      - key: OPENROUTER_API_KEY
+        sync: false
+      - key: FRONTEND_URL
+        value: https://ring-wing-frontend.onrender.com
+    healthCheckPath: /api/health

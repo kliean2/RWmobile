@@ -1,0 +1,20 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 30
+    },
+    "auditLog": "C:\\Users\\kliean\\Downloads\\ringandwing-mobileprototype\\RingWing-v6\\ring-and-wing-backend\\logs\\.fe94f469e7c438ad9278b95d6f885b7f9e06dd36-audit.json",
+    "files": [
+        {
+            "date": 1746545777729,
+            "name": "C:\\Users\\kliean\\Downloads\\ringandwing-mobileprototype\\RingWing-v6\\ring-and-wing-backend\\logs\\combined-2025-05-06.log",
+            "hash": "59cf2a701d2e4ef3e912e8df61ed80f2f6e53ced67ab48d5773f516efb8e0979"
+        },
+        {
+            "date": 1746547200630,
+            "name": "C:\\Users\\kliean\\Downloads\\ringandwing-mobileprototype\\RingWing-v6\\ring-and-wing-backend\\logs\\combined-2025-05-07.log",
+            "hash": "06aaed9f2b156bc2f270b46571dab42e9acb99827f9397276d1c7e6723a0225d"
+        }
+    ],
+    "hashType": "sha256"
+}
