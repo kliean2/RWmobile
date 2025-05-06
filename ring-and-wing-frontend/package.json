@@ -6,7 +6,7 @@
   "proxy": "http://localhost:5000",
   "scripts": {
     "dev": "nodemon --exec vite",
-    "build": "vite build",
+    "build": "vite build --legacy-peer-deps",
     "lint": "eslint .",
     "preview": "vite preview"
   },
@@ -15,8 +15,8 @@
     "axios": "^1.6.2",
     "file-saver": "^2.0.5",
     "framer-motion": "^12.9.7",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-hook-form": "^7.51.0",
     "react-icons": "^4.10.1",
     "react-router-dom": "^7.4.0",
@@ -28,8 +28,8 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",
-    "@types/react": "^19.0.10",
-    "@types/react-dom": "^19.0.4",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
     "@vitejs/plugin-react": "^4.3.4",
     "autoprefixer": "^10.4.21",
     "eslint": "^9.21.0",
